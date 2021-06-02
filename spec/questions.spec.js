@@ -27,7 +27,7 @@ describe('Les chaines de caractères : ', function () {   //on décrit la foncti
 
 // 5
   it('Afficher les 9 premiers caractères d\'une chaîne de caractère', function () {
-    var result = characters9('Ce texte a une certaine taille');
+    var result = show9characters('Ce texte a une certaine taille');
     expect(result).toEqual('Ce texte ');
   });
   
@@ -52,7 +52,7 @@ describe('Les chaines de caractères : ', function () {   //on décrit la foncti
 // 9
   it('Afficher true si le parametre d\'entrée de la fonction est de type string', function () {
     var result = typeString('Ce texte a une certaine taille');
-    expect(result).toEqual(true);
+    expect(result).toEqual(true);  // .toBeTrue();
   });
 
 // 10

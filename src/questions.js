@@ -19,11 +19,11 @@ let concatString = function(string1, string2){
 
 // 4
 let charAtString5 = function(string){
-    return string.charAt(5);
+    return string.charAt(5);  // return string[5]
 }
 
 // 5
-let characters9 = function(string){
+let show9characters = function(string){
     return string.substring(0, 9);
 }
 
@@ -43,8 +43,8 @@ let deleteSpace = function(string){
 }
 
 // 9
-let typeString = function(string){
-    if (typeof "" === 'string'){
+let typeString = function(){
+    if (typeof '' === 'string'){
         return true;
     }
 }
