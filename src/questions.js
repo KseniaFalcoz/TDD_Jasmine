@@ -3,12 +3,13 @@
  * Trouvez la façon de faire la plus optimal.
  * Il peut y avoir plusieur façon de faire.
  */
-let tailleString = function(string){
+
+function tailleString(string){  // let tailleString = function(string){
     return string.length;
 }
 
 // 2
-let replaceString = function(string){
+let replaceString = function(string){ // function replaceString(string){ 
     return string.replace('e', ' ');
 }
 
@@ -19,7 +20,7 @@ let concatString = function(string1, string2){
 
 // 4
 let charAtString5 = function(string){
-    return string.charAt(5);  // return string[5]
+    return string.charAt(5);  // return string[5];
 }
 
 // 5
